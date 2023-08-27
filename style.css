@@ -1,0 +1,157 @@
+*{margin:0;
+padding:0;}
+.sidebar{
+    background-color:#12395D;
+    color: white;
+    width:25%;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 10px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height:100vh;
+
+}
+.sidebar li a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    background-color:#white;
+    width:100%;
+}
+.container{
+    display: flex;
+}
+.sidebar li{
+    padding: 30px;
+}
+.info-container{
+    background-color:white;
+    height:48vh;
+    width: 85%;
+    margin-left: 120px;
+    margin-top:10%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.devpic img{
+    height:48vh;
+}
+.dev-info{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+.hello{
+    font-size: 40px;
+    color:#12395D;
+    margin-bottom: 50px;
+    font-weight: bold;}
+.dev-info button{
+    width: 150px;
+    height:150%;
+    font-size: 15px;
+    background-color: #12395D;
+    border-radius: 20px;
+    color:white;
+    display: inline-block;
+   
+   
+}
+.About{
+    font-size:27px;
+    color:#12395D;
+    
+}
+.moreabout{
+    font-size:18px;
+    margin-bottom:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.dev-info button:hover{
+    background-color:white;
+    color:#12395D;
+    
+}
+.contactform h1{
+    color:#12395D;
+    margin-left: 250px;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.contactform{
+    padding: 20px;
+}
+.contactform div{
+    padding:40px;
+}
+
+
+#emailHelp{
+    font-size: 18px;
+    color:red;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: lighter;
+    padding-top: 10px;
+    padding-left:1px;
+}
+.contactform form div {
+    font-size:20px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contactform form div input { 
+    border-radius:20px;
+    padding:5px;
+    width:25%;
+    
+}  
+.contactform button{
+    width: 100px;
+    height:150%;
+    font-size: 15px;
+    background-color: #12395D;
+    border-radius: 20px;
+    color:white;
+    display: inline-block;
+    margin-left: 40px;
+}
+.contactform button:hover{
+    background-color:white;
+    color:#12395D;
+    
+}
+
+.dev-info h2{
+    
+    text-align: justify;
+    font-weight: lighter;
+    color: #12395D;
+}
+.devpic1 img{
+    height: 220px;
+    width:220px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.cv h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+.cv object{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 200%;
+    height: 90%;
+   
+}
